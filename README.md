@@ -1,4 +1,4 @@
-gdi-detector
+gdi-memory-leak-detector
 ============
 
 ### 基本思想
