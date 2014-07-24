@@ -1,0 +1,51 @@
+<Objecthandle>
+<Handle Value="56052ea4">
+<Handle>56052ea4</Handle>
+<Type>1</Type>
+<Parameterinfo>
+<Para Type="RTN_HBITMAP">1443180196 </Para>
+<Para Type=" int">16 </Para>
+<Para Type=" int">16 </Para>
+<Para Type=" UINT">1 </Para>
+<Para Type=" UINT">1 </Para>
+<Para Type=" CONST VOID *">00000000</Para>
+</Parameterinfo>
+<Register>
+<reg Type="Eax">0</reg>
+<reg Type="Ebp">2418952</reg>
+<reg Type="Ebx">0</reg>
+<reg Type="Ecx">0</reg>
+<reg Type="Edi">0</reg>
+<reg Type="Edx">0</reg>
+<reg Type="EFlags">0</reg>
+<reg Type="Eip">268529465</reg>
+<reg Type="Esi">0</reg>
+<reg Type="Esp">2410320</reg>
+<reg Type="SegCs">0</reg>
+<reg Type="SegSs">0</reg>
+</Register>
+<CallStack>
+<Stack>[10000000, 10016F39] GdiDetector --&gt; (function-name not available)
+</Stack>
+<Stack>[10000000, 10009E1D] GdiDetector --&gt; (function-name not available)
+</Stack>
+</CallStack>
+<Module>
+<GdiDetector>
+<Address>10000000</Address>
+<FilePath>D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0901\Gdi Memory Leak Detect 2010-09-01 00.01\GdiLeakDetector\GdiDetector.dll</FilePath>
+<Size>901120</Size>
+<Time>1283269490</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</GdiDetector>
+<GdiDetector>
+<Address>10000000</Address>
+<FilePath>D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0901\Gdi Memory Leak Detect 2010-09-01 00.01\GdiLeakDetector\GdiDetector.dll</FilePath>
+<Size>901120</Size>
+<Time>1283269490</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</GdiDetector>
+</Module>
+<End/>
+</Handle>
+</Objecthandle>

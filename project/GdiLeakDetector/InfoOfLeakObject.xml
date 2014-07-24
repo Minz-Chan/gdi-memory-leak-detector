@@ -1,0 +1,2521 @@
+<Objecthandle>
+<Handle Value="2c010262">
+<Handle>2c010262</Handle>
+<Type>4</Type>
+<Parameterinfo>
+<Para Type="RTN_HDC">738263650 </Para>
+<Para Type=" HWND">0</Para>
+</Parameterinfo>
+<Register>
+<reg Type="Eax">0</reg>
+<reg Type="Ebp">1241288</reg>
+<reg Type="Ebx">0</reg>
+<reg Type="Ecx">0</reg>
+<reg Type="Edi">0</reg>
+<reg Type="Edx">0</reg>
+<reg Type="EFlags">0</reg>
+<reg Type="Eip">268592797</reg>
+<reg Type="Esi">0</reg>
+<reg Type="Esp">1232592</reg>
+<reg Type="SegCs">0</reg>
+<reg Type="SegSs">0</reg>
+</Register>
+<CallStack>
+<Stack>[10000000, 1002669D] GdiDetector --&gt; (function-name not available)
+</Stack>
+<Stack>[10000000, 1001DD61] GdiDetector --&gt; (function-name not available)
+</Stack>
+<Stack>E:\RedirectAPI\MessageBox\MessageBoxDlg.cpp (236): CMessageBoxDlg::OnButton6
+</Stack>
+<Stack>cmdtarg.cpp (88): _AfxDispatchCmdMsg
+</Stack>
+<Stack>cmdtarg.cpp (302): CCmdTarget::OnCmdMsg
+</Stack>
+<Stack>dlgcore.cpp (97): CDialog::OnCmdMsg
+</Stack>
+<Stack>wincore.cpp (2099): CWnd::OnCommand
+</Stack>
+<Stack>wincore.cpp (1608): CWnd::OnWndMsg
+</Stack>
+<Stack>wincore.cpp (1596): CWnd::WindowProc
+</Stack>
+<Stack>wincore.cpp (215): AfxCallWndProc
+</Stack>
+<Stack>wincore.cpp (379): AfxWndProc
+</Stack>
+<Stack>afxstate.cpp (220): AfxWndProcBase
+</Stack>
+<Stack>[77D10000, 77D18724] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D18806] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D1B88B] USER32 --&gt; GetParent
+</Stack>
+<Stack>[77D10000, 77D1B8F3] USER32 --&gt; SendMessageW
+</Stack>
+<Stack>[77D10000, 77D4FE95] USER32 --&gt; CreateMDIWindowA
+</Stack>
+<Stack>[77D10000, 77D4658D] USER32 --&gt; DeregisterShellHookWindow
+</Stack>
+<Stack>[77D10000, 77D2783F] USER32 --&gt; IsDlgButtonChecked
+</Stack>
+<Stack>[77D10000, 77D3B06A] USER32 --&gt; SoftModalMessageBox
+</Stack>
+<Stack>[77D10000, 77D18724] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D18806] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D189BD] USER32 --&gt; GetWindowLongW
+</Stack>
+<Stack>[77D10000, 77D18A00] USER32 --&gt; DispatchMessageW
+</Stack>
+<Stack>[77D10000, 77D2E0A7] USER32 --&gt; IsDialogMessageW
+</Stack>
+<Stack>[77D10000, 77D3C6BB] USER32 --&gt; IsDialogMessageA
+</Stack>
+<Stack>winocc.cpp (182): CWnd::IsDialogMessageA
+</Stack>
+<Stack>wincore.cpp (3435): CWnd::PreTranslateInput
+</Stack>
+<Stack>dlgcore.cpp (92): CDialog::PreTranslateMessage
+</Stack>
+<Stack>wincore.cpp (2678): CWnd::WalkPreTranslateTree
+</Stack>
+<Stack>thrdcore.cpp (672): CWinThread::PreTranslateMessage
+</Stack>
+<Stack>thrdcore.cpp (848): CWinThread::PumpMessage
+</Stack>
+<Stack>wincore.cpp (3489): CWnd::RunModalLoop
+</Stack>
+<Stack>dlgcore.cpp (539): CDialog::DoModal
+</Stack>
+<Stack>E:\RedirectAPI\MessageBox\MessageBox.cpp (59): CMessageBoxApp::InitInstance
+</Stack>
+<Stack>winmain.cpp (39): AfxWinMain
+</Stack>
+<Stack>appmodul.cpp (30): WinMain
+</Stack>
+<Stack>crtexe.c (330): WinMainCRTStartup
+</Stack>
+<Stack>[7C800000, 7C817027] kernel32 --&gt; RegisterWaitForInputIdle
+</Stack>
+</CallStack>
+<Module>
+<GdiDetector>
+<Address>10000000</Address>
+<FilePath>D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\GdiDetector.dll</FilePath>
+<Size>1687552</Size>
+<Time>1283600128</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</GdiDetector>
+<GdiDetector>
+<Address>10000000</Address>
+<FilePath>D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\GdiDetector.dll</FilePath>
+<Size>1687552</Size>
+<Time>1283600128</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</GdiDetector>
+<MessageBox>
+<Address>400000</Address>
+<FilePath>C:\Documents and Settings\acer\桌面\TEST1\MessageBox.exe</FilePath>
+<Size>114688</Size>
+<Time>1283590176</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MessageBox>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MessageBox>
+<Address>400000</Address>
+<FilePath>C:\Documents and Settings\acer\桌面\TEST1\MessageBox.exe</FilePath>
+<Size>114688</Size>
+<Time>1283590176</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MessageBox>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MessageBox>
+<Address>400000</Address>
+<FilePath>C:\Documents and Settings\acer\桌面\TEST1\MessageBox.exe</FilePath>
+<Size>114688</Size>
+<Time>1283590176</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MessageBox>
+<MessageBox>
+<Address>400000</Address>
+<FilePath>C:\Documents and Settings\acer\桌面\TEST1\MessageBox.exe</FilePath>
+<Size>114688</Size>
+<Time>1283590176</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MessageBox>
+<kernel32>
+<Address>7c800000</Address>
+<FilePath>C:\WINDOWS\system32\kernel32.dll</FilePath>
+<Size>1167360</Size>
+<Time>1237643647</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</kernel32>
+</Module>
+<End/>
+</Handle>
+<Handle Value="68012f0f">
+<Handle>68012f0f</Handle>
+<Type>4</Type>
+<Parameterinfo>
+<Para Type="RTN_HDC">1744908047 </Para>
+<Para Type=" HWND">0</Para>
+</Parameterinfo>
+<Register>
+<reg Type="Eax">0</reg>
+<reg Type="Ebp">1241288</reg>
+<reg Type="Ebx">0</reg>
+<reg Type="Ecx">0</reg>
+<reg Type="Edi">0</reg>
+<reg Type="Edx">0</reg>
+<reg Type="EFlags">0</reg>
+<reg Type="Eip">268592797</reg>
+<reg Type="Esi">0</reg>
+<reg Type="Esp">1232592</reg>
+<reg Type="SegCs">0</reg>
+<reg Type="SegSs">0</reg>
+</Register>
+<CallStack>
+<Stack>[10000000, 1002669D] GdiDetector --&gt; (function-name not available)
+</Stack>
+<Stack>[10000000, 1001DD61] GdiDetector --&gt; (function-name not available)
+</Stack>
+<Stack>E:\RedirectAPI\MessageBox\MessageBoxDlg.cpp (236): CMessageBoxDlg::OnButton6
+</Stack>
+<Stack>cmdtarg.cpp (88): _AfxDispatchCmdMsg
+</Stack>
+<Stack>cmdtarg.cpp (302): CCmdTarget::OnCmdMsg
+</Stack>
+<Stack>dlgcore.cpp (97): CDialog::OnCmdMsg
+</Stack>
+<Stack>wincore.cpp (2099): CWnd::OnCommand
+</Stack>
+<Stack>wincore.cpp (1608): CWnd::OnWndMsg
+</Stack>
+<Stack>wincore.cpp (1596): CWnd::WindowProc
+</Stack>
+<Stack>wincore.cpp (215): AfxCallWndProc
+</Stack>
+<Stack>wincore.cpp (379): AfxWndProc
+</Stack>
+<Stack>afxstate.cpp (220): AfxWndProcBase
+</Stack>
+<Stack>[77D10000, 77D18724] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D18806] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D1B88B] USER32 --&gt; GetParent
+</Stack>
+<Stack>[77D10000, 77D1B8F3] USER32 --&gt; SendMessageW
+</Stack>
+<Stack>[77D10000, 77D4FE95] USER32 --&gt; CreateMDIWindowA
+</Stack>
+<Stack>[77D10000, 77D4658D] USER32 --&gt; DeregisterShellHookWindow
+</Stack>
+<Stack>[77D10000, 77D2783F] USER32 --&gt; IsDlgButtonChecked
+</Stack>
+<Stack>[77D10000, 77D3B06A] USER32 --&gt; SoftModalMessageBox
+</Stack>
+<Stack>[77D10000, 77D18724] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D18806] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D189BD] USER32 --&gt; GetWindowLongW
+</Stack>
+<Stack>[77D10000, 77D18A00] USER32 --&gt; DispatchMessageW
+</Stack>
+<Stack>[77D10000, 77D2E0A7] USER32 --&gt; IsDialogMessageW
+</Stack>
+<Stack>[77D10000, 77D3C6BB] USER32 --&gt; IsDialogMessageA
+</Stack>
+<Stack>winocc.cpp (182): CWnd::IsDialogMessageA
+</Stack>
+<Stack>wincore.cpp (3435): CWnd::PreTranslateInput
+</Stack>
+<Stack>dlgcore.cpp (92): CDialog::PreTranslateMessage
+</Stack>
+<Stack>wincore.cpp (2678): CWnd::WalkPreTranslateTree
+</Stack>
+<Stack>thrdcore.cpp (672): CWinThread::PreTranslateMessage
+</Stack>
+<Stack>thrdcore.cpp (848): CWinThread::PumpMessage
+</Stack>
+<Stack>wincore.cpp (3489): CWnd::RunModalLoop
+</Stack>
+<Stack>dlgcore.cpp (539): CDialog::DoModal
+</Stack>
+<Stack>E:\RedirectAPI\MessageBox\MessageBox.cpp (59): CMessageBoxApp::InitInstance
+</Stack>
+<Stack>winmain.cpp (39): AfxWinMain
+</Stack>
+<Stack>appmodul.cpp (30): WinMain
+</Stack>
+<Stack>crtexe.c (330): WinMainCRTStartup
+</Stack>
+<Stack>[7C800000, 7C817027] kernel32 --&gt; RegisterWaitForInputIdle
+</Stack>
+</CallStack>
+<Module>
+<GdiDetector>
+<Address>10000000</Address>
+<FilePath>D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\GdiDetector.dll</FilePath>
+<Size>1687552</Size>
+<Time>1283600128</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</GdiDetector>
+<GdiDetector>
+<Address>10000000</Address>
+<FilePath>D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\GdiDetector.dll</FilePath>
+<Size>1687552</Size>
+<Time>1283600128</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</GdiDetector>
+<MessageBox>
+<Address>400000</Address>
+<FilePath>C:\Documents and Settings\acer\桌面\TEST1\MessageBox.exe</FilePath>
+<Size>114688</Size>
+<Time>1283590176</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MessageBox>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MessageBox>
+<Address>400000</Address>
+<FilePath>C:\Documents and Settings\acer\桌面\TEST1\MessageBox.exe</FilePath>
+<Size>114688</Size>
+<Time>1283590176</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MessageBox>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MessageBox>
+<Address>400000</Address>
+<FilePath>C:\Documents and Settings\acer\桌面\TEST1\MessageBox.exe</FilePath>
+<Size>114688</Size>
+<Time>1283590176</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MessageBox>
+<MessageBox>
+<Address>400000</Address>
+<FilePath>C:\Documents and Settings\acer\桌面\TEST1\MessageBox.exe</FilePath>
+<Size>114688</Size>
+<Time>1283590176</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MessageBox>
+<kernel32>
+<Address>7c800000</Address>
+<FilePath>C:\WINDOWS\system32\kernel32.dll</FilePath>
+<Size>1167360</Size>
+<Time>1237643647</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</kernel32>
+</Module>
+<End/>
+</Handle>
+<Handle Value="ab011f92">
+<Handle>ab011f92</Handle>
+<Type>4</Type>
+<Parameterinfo>
+<Para Type="RTN_HDC">-1425989742 </Para>
+<Para Type=" HWND">0</Para>
+</Parameterinfo>
+<Register>
+<reg Type="Eax">0</reg>
+<reg Type="Ebp">1241288</reg>
+<reg Type="Ebx">0</reg>
+<reg Type="Ecx">0</reg>
+<reg Type="Edi">0</reg>
+<reg Type="Edx">0</reg>
+<reg Type="EFlags">0</reg>
+<reg Type="Eip">268592797</reg>
+<reg Type="Esi">0</reg>
+<reg Type="Esp">1232592</reg>
+<reg Type="SegCs">0</reg>
+<reg Type="SegSs">0</reg>
+</Register>
+<CallStack>
+<Stack>[10000000, 1002669D] GdiDetector --&gt; (function-name not available)
+</Stack>
+<Stack>[10000000, 1001DD61] GdiDetector --&gt; (function-name not available)
+</Stack>
+<Stack>E:\RedirectAPI\MessageBox\MessageBoxDlg.cpp (236): CMessageBoxDlg::OnButton6
+</Stack>
+<Stack>cmdtarg.cpp (88): _AfxDispatchCmdMsg
+</Stack>
+<Stack>cmdtarg.cpp (302): CCmdTarget::OnCmdMsg
+</Stack>
+<Stack>dlgcore.cpp (97): CDialog::OnCmdMsg
+</Stack>
+<Stack>wincore.cpp (2099): CWnd::OnCommand
+</Stack>
+<Stack>wincore.cpp (1608): CWnd::OnWndMsg
+</Stack>
+<Stack>wincore.cpp (1596): CWnd::WindowProc
+</Stack>
+<Stack>wincore.cpp (215): AfxCallWndProc
+</Stack>
+<Stack>wincore.cpp (379): AfxWndProc
+</Stack>
+<Stack>afxstate.cpp (220): AfxWndProcBase
+</Stack>
+<Stack>[77D10000, 77D18724] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D18806] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D1B88B] USER32 --&gt; GetParent
+</Stack>
+<Stack>[77D10000, 77D1B8F3] USER32 --&gt; SendMessageW
+</Stack>
+<Stack>[77D10000, 77D4FE95] USER32 --&gt; CreateMDIWindowA
+</Stack>
+<Stack>[77D10000, 77D4658D] USER32 --&gt; DeregisterShellHookWindow
+</Stack>
+<Stack>[77D10000, 77D2783F] USER32 --&gt; IsDlgButtonChecked
+</Stack>
+<Stack>[77D10000, 77D3B06A] USER32 --&gt; SoftModalMessageBox
+</Stack>
+<Stack>[77D10000, 77D18724] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D18806] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D189BD] USER32 --&gt; GetWindowLongW
+</Stack>
+<Stack>[77D10000, 77D18A00] USER32 --&gt; DispatchMessageW
+</Stack>
+<Stack>[77D10000, 77D2E0A7] USER32 --&gt; IsDialogMessageW
+</Stack>
+<Stack>[77D10000, 77D3C6BB] USER32 --&gt; IsDialogMessageA
+</Stack>
+<Stack>winocc.cpp (182): CWnd::IsDialogMessageA
+</Stack>
+<Stack>wincore.cpp (3435): CWnd::PreTranslateInput
+</Stack>
+<Stack>dlgcore.cpp (92): CDialog::PreTranslateMessage
+</Stack>
+<Stack>wincore.cpp (2678): CWnd::WalkPreTranslateTree
+</Stack>
+<Stack>thrdcore.cpp (672): CWinThread::PreTranslateMessage
+</Stack>
+<Stack>thrdcore.cpp (848): CWinThread::PumpMessage
+</Stack>
+<Stack>wincore.cpp (3489): CWnd::RunModalLoop
+</Stack>
+<Stack>dlgcore.cpp (539): CDialog::DoModal
+</Stack>
+<Stack>E:\RedirectAPI\MessageBox\MessageBox.cpp (59): CMessageBoxApp::InitInstance
+</Stack>
+<Stack>winmain.cpp (39): AfxWinMain
+</Stack>
+<Stack>appmodul.cpp (30): WinMain
+</Stack>
+<Stack>crtexe.c (330): WinMainCRTStartup
+</Stack>
+<Stack>[7C800000, 7C817027] kernel32 --&gt; RegisterWaitForInputIdle
+</Stack>
+</CallStack>
+<Module>
+<GdiDetector>
+<Address>10000000</Address>
+<FilePath>D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\GdiDetector.dll</FilePath>
+<Size>1687552</Size>
+<Time>1283600128</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</GdiDetector>
+<GdiDetector>
+<Address>10000000</Address>
+<FilePath>D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\GdiDetector.dll</FilePath>
+<Size>1687552</Size>
+<Time>1283600128</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</GdiDetector>
+<MessageBox>
+<Address>400000</Address>
+<FilePath>C:\Documents and Settings\acer\桌面\TEST1\MessageBox.exe</FilePath>
+<Size>114688</Size>
+<Time>1283590176</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MessageBox>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MessageBox>
+<Address>400000</Address>
+<FilePath>C:\Documents and Settings\acer\桌面\TEST1\MessageBox.exe</FilePath>
+<Size>114688</Size>
+<Time>1283590176</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MessageBox>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MessageBox>
+<Address>400000</Address>
+<FilePath>C:\Documents and Settings\acer\桌面\TEST1\MessageBox.exe</FilePath>
+<Size>114688</Size>
+<Time>1283590176</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MessageBox>
+<MessageBox>
+<Address>400000</Address>
+<FilePath>C:\Documents and Settings\acer\桌面\TEST1\MessageBox.exe</FilePath>
+<Size>114688</Size>
+<Time>1283590176</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MessageBox>
+<kernel32>
+<Address>7c800000</Address>
+<FilePath>C:\WINDOWS\system32\kernel32.dll</FilePath>
+<Size>1167360</Size>
+<Time>1237643647</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</kernel32>
+</Module>
+<End/>
+</Handle>
+<Handle Value="b5052bf1">
+<Handle>b5052bf1</Handle>
+<Type>1</Type>
+<Parameterinfo>
+<Para Type="RTN_HBITMAP">-1257952271 </Para>
+<Para Type=" int">16 </Para>
+<Para Type=" int">16 </Para>
+<Para Type=" UINT">1 </Para>
+<Para Type=" UINT">1 </Para>
+<Para Type=" CONST VOID *">00000000</Para>
+</Parameterinfo>
+<Register>
+<reg Type="Eax">0</reg>
+<reg Type="Ebp">2419076</reg>
+<reg Type="Ebx">0</reg>
+<reg Type="Ecx">0</reg>
+<reg Type="Edi">0</reg>
+<reg Type="Edx">0</reg>
+<reg Type="EFlags">0</reg>
+<reg Type="Eip">268592797</reg>
+<reg Type="Esi">0</reg>
+<reg Type="Esp">2410380</reg>
+<reg Type="SegCs">0</reg>
+<reg Type="SegSs">0</reg>
+</Register>
+<CallStack>
+<Stack>[10000000, 1002669D] GdiDetector --&gt; (function-name not available)
+</Stack>
+<Stack>[10000000, 1001AFC1] GdiDetector --&gt; (function-name not available)
+</Stack>
+<Stack>[74680000, 746BB4E2] MSCTF --&gt; TF_GetLangIcon
+</Stack>
+<Stack>[74680000, 746BB876] MSCTF --&gt; TF_MlngInfoCount
+</Stack>
+<Stack>[74680000, 746B1271] MSCTF --&gt; TF_RunInputCPL
+</Stack>
+<Stack>[74680000, 746B167C] MSCTF --&gt; TF_RunInputCPL
+</Stack>
+<Stack>[74680000, 7469CD2B] MSCTF --&gt; TF_CreateCicLoadMutex
+</Stack>
+<Stack>[74680000, 7469D60E] MSCTF --&gt; TF_CreateCicLoadMutex
+</Stack>
+<Stack>[74680000, 74688B2E] MSCTF --&gt; TF_CreateLangBarItemMgr
+</Stack>
+<Stack>[74680000, 7469D913] MSCTF --&gt; TF_CreateCicLoadMutex
+</Stack>
+<Stack>[74680000, 7469DD3B] MSCTF --&gt; TF_CreateCicLoadMutex
+</Stack>
+<Stack>[74680000, 746A03DE] MSCTF --&gt; TF_CheckThreadInputIdle
+</Stack>
+<Stack>[77D10000, 77D18724] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D18806] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D189BD] USER32 --&gt; GetWindowLongW
+</Stack>
+<Stack>[77D10000, 77D18A00] USER32 --&gt; DispatchMessageW
+</Stack>
+<Stack>[77D10000, 77D2E2C9] USER32 --&gt; CallMsgFilterW
+</Stack>
+<Stack>[77D10000, 77D2636F] USER32 --&gt; DrawStateW
+</Stack>
+<Stack>[77D10000, 77D3A93E] USER32 --&gt; SoftModalMessageBox
+</Stack>
+<Stack>[77D10000, 77D3A2A4] USER32 --&gt; MessageBoxIndirectA
+</Stack>
+<Stack>[77D10000, 77D6634D] USER32 --&gt; MessageBoxTimeoutW
+</Stack>
+<Stack>[77D10000, 77D663F2] USER32 --&gt; MessageBoxTimeoutA
+</Stack>
+<Stack>[77D10000, 77D5078F] USER32 --&gt; MessageBoxExA
+</Stack>
+<Stack>[77D10000, 77D50747] USER32 --&gt; MessageBoxA
+</Stack>
+<Stack>[10000000, 10006EFE] GdiDetector --&gt; (function-name not available)
+</Stack>
+<Stack>[10000000, 10033C10] GdiDetector --&gt; (function-name not available)
+</Stack>
+<Stack>[7C920000, 7C92118A] ntdll --&gt; LdrInitializeThunk
+</Stack>
+<Stack>[7C920000, 7C93CB82] ntdll --&gt; LdrFindResourceDirectory_U
+</Stack>
+<Stack>[7C920000, 7C935C81] ntdll --&gt; RtlValidateUnicodeString
+</Stack>
+<Stack>[7C920000, 7C935DE3] ntdll --&gt; LdrLoadDll
+</Stack>
+<Stack>[7C800000, 7C801BBD] kernel32 --&gt; LoadLibraryExW
+</Stack>
+<Stack>[7C800000, 7C801D72] kernel32 --&gt; LoadLibraryExA
+</Stack>
+<Stack>[7C800000, 7C801DA8] kernel32 --&gt; LoadLibraryA
+</Stack>
+<Stack>[7C800000, 7C80B6D9] kernel32 --&gt; GetModuleFileNameA
+</Stack>
+</CallStack>
+<Module>
+<GdiDetector>
+<Address>10000000</Address>
+<FilePath>D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\GdiDetector.dll</FilePath>
+<Size>1687552</Size>
+<Time>1283600128</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</GdiDetector>
+<GdiDetector>
+<Address>10000000</Address>
+<FilePath>D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\GdiDetector.dll</FilePath>
+<Size>1687552</Size>
+<Time>1283600128</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</GdiDetector>
+<MSCTF>
+<Address>74680000</Address>
+<FilePath>C:\WINDOWS\system32\MSCTF.dll</FilePath>
+<Size>311296</Size>
+<Time>1204026541</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MSCTF>
+<MSCTF>
+<Address>74680000</Address>
+<FilePath>C:\WINDOWS\system32\MSCTF.dll</FilePath>
+<Size>311296</Size>
+<Time>1204026541</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MSCTF>
+<MSCTF>
+<Address>74680000</Address>
+<FilePath>C:\WINDOWS\system32\MSCTF.dll</FilePath>
+<Size>311296</Size>
+<Time>1204026541</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MSCTF>
+<MSCTF>
+<Address>74680000</Address>
+<FilePath>C:\WINDOWS\system32\MSCTF.dll</FilePath>
+<Size>311296</Size>
+<Time>1204026541</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MSCTF>
+<MSCTF>
+<Address>74680000</Address>
+<FilePath>C:\WINDOWS\system32\MSCTF.dll</FilePath>
+<Size>311296</Size>
+<Time>1204026541</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MSCTF>
+<MSCTF>
+<Address>74680000</Address>
+<FilePath>C:\WINDOWS\system32\MSCTF.dll</FilePath>
+<Size>311296</Size>
+<Time>1204026541</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MSCTF>
+<MSCTF>
+<Address>74680000</Address>
+<FilePath>C:\WINDOWS\system32\MSCTF.dll</FilePath>
+<Size>311296</Size>
+<Time>1204026541</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MSCTF>
+<MSCTF>
+<Address>74680000</Address>
+<FilePath>C:\WINDOWS\system32\MSCTF.dll</FilePath>
+<Size>311296</Size>
+<Time>1204026541</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MSCTF>
+<MSCTF>
+<Address>74680000</Address>
+<FilePath>C:\WINDOWS\system32\MSCTF.dll</FilePath>
+<Size>311296</Size>
+<Time>1204026541</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MSCTF>
+<MSCTF>
+<Address>74680000</Address>
+<FilePath>C:\WINDOWS\system32\MSCTF.dll</FilePath>
+<Size>311296</Size>
+<Time>1204026541</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MSCTF>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<GdiDetector>
+<Address>10000000</Address>
+<FilePath>D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\GdiDetector.dll</FilePath>
+<Size>1687552</Size>
+<Time>1283600128</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</GdiDetector>
+<GdiDetector>
+<Address>10000000</Address>
+<FilePath>D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\GdiDetector.dll</FilePath>
+<Size>1687552</Size>
+<Time>1283600128</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</GdiDetector>
+<ntdll>
+<Address>7c920000</Address>
+<FilePath>C:\WINDOWS\system32\ntdll.dll</FilePath>
+<Size>614400</Size>
+<Time>1234173578</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</ntdll>
+<ntdll>
+<Address>7c920000</Address>
+<FilePath>C:\WINDOWS\system32\ntdll.dll</FilePath>
+<Size>614400</Size>
+<Time>1234173578</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</ntdll>
+<ntdll>
+<Address>7c920000</Address>
+<FilePath>C:\WINDOWS\system32\ntdll.dll</FilePath>
+<Size>614400</Size>
+<Time>1234173578</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</ntdll>
+<ntdll>
+<Address>7c920000</Address>
+<FilePath>C:\WINDOWS\system32\ntdll.dll</FilePath>
+<Size>614400</Size>
+<Time>1234173578</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</ntdll>
+<kernel32>
+<Address>7c800000</Address>
+<FilePath>C:\WINDOWS\system32\kernel32.dll</FilePath>
+<Size>1167360</Size>
+<Time>1237643647</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</kernel32>
+<kernel32>
+<Address>7c800000</Address>
+<FilePath>C:\WINDOWS\system32\kernel32.dll</FilePath>
+<Size>1167360</Size>
+<Time>1237643647</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</kernel32>
+<kernel32>
+<Address>7c800000</Address>
+<FilePath>C:\WINDOWS\system32\kernel32.dll</FilePath>
+<Size>1167360</Size>
+<Time>1237643647</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</kernel32>
+<kernel32>
+<Address>7c800000</Address>
+<FilePath>C:\WINDOWS\system32\kernel32.dll</FilePath>
+<Size>1167360</Size>
+<Time>1237643647</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</kernel32>
+</Module>
+<End/>
+</Handle>
+<Handle Value="d6012ed5">
+<Handle>d6012ed5</Handle>
+<Type>4</Type>
+<Parameterinfo>
+<Para Type="RTN_HDC">-704565547 </Para>
+<Para Type=" HWND">0</Para>
+</Parameterinfo>
+<Register>
+<reg Type="Eax">0</reg>
+<reg Type="Ebp">1241288</reg>
+<reg Type="Ebx">0</reg>
+<reg Type="Ecx">0</reg>
+<reg Type="Edi">0</reg>
+<reg Type="Edx">0</reg>
+<reg Type="EFlags">0</reg>
+<reg Type="Eip">268592797</reg>
+<reg Type="Esi">0</reg>
+<reg Type="Esp">1232592</reg>
+<reg Type="SegCs">0</reg>
+<reg Type="SegSs">0</reg>
+</Register>
+<CallStack>
+<Stack>[10000000, 1002669D] GdiDetector --&gt; (function-name not available)
+</Stack>
+<Stack>[10000000, 1001DD61] GdiDetector --&gt; (function-name not available)
+</Stack>
+<Stack>E:\RedirectAPI\MessageBox\MessageBoxDlg.cpp (236): CMessageBoxDlg::OnButton6
+</Stack>
+<Stack>cmdtarg.cpp (88): _AfxDispatchCmdMsg
+</Stack>
+<Stack>cmdtarg.cpp (302): CCmdTarget::OnCmdMsg
+</Stack>
+<Stack>dlgcore.cpp (97): CDialog::OnCmdMsg
+</Stack>
+<Stack>wincore.cpp (2099): CWnd::OnCommand
+</Stack>
+<Stack>wincore.cpp (1608): CWnd::OnWndMsg
+</Stack>
+<Stack>wincore.cpp (1596): CWnd::WindowProc
+</Stack>
+<Stack>wincore.cpp (215): AfxCallWndProc
+</Stack>
+<Stack>wincore.cpp (379): AfxWndProc
+</Stack>
+<Stack>afxstate.cpp (220): AfxWndProcBase
+</Stack>
+<Stack>[77D10000, 77D18724] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D18806] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D1B88B] USER32 --&gt; GetParent
+</Stack>
+<Stack>[77D10000, 77D1B8F3] USER32 --&gt; SendMessageW
+</Stack>
+<Stack>[77D10000, 77D4FE95] USER32 --&gt; CreateMDIWindowA
+</Stack>
+<Stack>[77D10000, 77D4658D] USER32 --&gt; DeregisterShellHookWindow
+</Stack>
+<Stack>[77D10000, 77D2783F] USER32 --&gt; IsDlgButtonChecked
+</Stack>
+<Stack>[77D10000, 77D3B06A] USER32 --&gt; SoftModalMessageBox
+</Stack>
+<Stack>[77D10000, 77D18724] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D18806] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D189BD] USER32 --&gt; GetWindowLongW
+</Stack>
+<Stack>[77D10000, 77D18A00] USER32 --&gt; DispatchMessageW
+</Stack>
+<Stack>[77D10000, 77D2E0A7] USER32 --&gt; IsDialogMessageW
+</Stack>
+<Stack>[77D10000, 77D3C6BB] USER32 --&gt; IsDialogMessageA
+</Stack>
+<Stack>winocc.cpp (182): CWnd::IsDialogMessageA
+</Stack>
+<Stack>wincore.cpp (3435): CWnd::PreTranslateInput
+</Stack>
+<Stack>dlgcore.cpp (92): CDialog::PreTranslateMessage
+</Stack>
+<Stack>wincore.cpp (2678): CWnd::WalkPreTranslateTree
+</Stack>
+<Stack>thrdcore.cpp (672): CWinThread::PreTranslateMessage
+</Stack>
+<Stack>thrdcore.cpp (848): CWinThread::PumpMessage
+</Stack>
+<Stack>wincore.cpp (3489): CWnd::RunModalLoop
+</Stack>
+<Stack>dlgcore.cpp (539): CDialog::DoModal
+</Stack>
+<Stack>E:\RedirectAPI\MessageBox\MessageBox.cpp (59): CMessageBoxApp::InitInstance
+</Stack>
+<Stack>winmain.cpp (39): AfxWinMain
+</Stack>
+<Stack>appmodul.cpp (30): WinMain
+</Stack>
+<Stack>crtexe.c (330): WinMainCRTStartup
+</Stack>
+<Stack>[7C800000, 7C817027] kernel32 --&gt; RegisterWaitForInputIdle
+</Stack>
+</CallStack>
+<Module>
+<GdiDetector>
+<Address>10000000</Address>
+<FilePath>D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\GdiDetector.dll</FilePath>
+<Size>1687552</Size>
+<Time>1283600128</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</GdiDetector>
+<GdiDetector>
+<Address>10000000</Address>
+<FilePath>D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\GdiDetector.dll</FilePath>
+<Size>1687552</Size>
+<Time>1283600128</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</GdiDetector>
+<MessageBox>
+<Address>400000</Address>
+<FilePath>C:\Documents and Settings\acer\桌面\TEST1\MessageBox.exe</FilePath>
+<Size>114688</Size>
+<Time>1283590176</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MessageBox>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MessageBox>
+<Address>400000</Address>
+<FilePath>C:\Documents and Settings\acer\桌面\TEST1\MessageBox.exe</FilePath>
+<Size>114688</Size>
+<Time>1283590176</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MessageBox>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MessageBox>
+<Address>400000</Address>
+<FilePath>C:\Documents and Settings\acer\桌面\TEST1\MessageBox.exe</FilePath>
+<Size>114688</Size>
+<Time>1283590176</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MessageBox>
+<MessageBox>
+<Address>400000</Address>
+<FilePath>C:\Documents and Settings\acer\桌面\TEST1\MessageBox.exe</FilePath>
+<Size>114688</Size>
+<Time>1283590176</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MessageBox>
+<kernel32>
+<Address>7c800000</Address>
+<FilePath>C:\WINDOWS\system32\kernel32.dll</FilePath>
+<Size>1167360</Size>
+<Time>1237643647</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</kernel32>
+</Module>
+<End/>
+</Handle>
+<Handle Value="dc053033">
+<Handle>dc053033</Handle>
+<Type>1</Type>
+<Parameterinfo>
+<Para Type="RTN_HBITMAP">-603639757 </Para>
+<Para Type=" int">16 </Para>
+<Para Type=" int">16 </Para>
+<Para Type=" UINT">1 </Para>
+<Para Type=" UINT">1 </Para>
+<Para Type=" CONST VOID *">00000000</Para>
+</Parameterinfo>
+<Register>
+<reg Type="Eax">0</reg>
+<reg Type="Ebp">1241772</reg>
+<reg Type="Ebx">0</reg>
+<reg Type="Ecx">0</reg>
+<reg Type="Edi">0</reg>
+<reg Type="Edx">0</reg>
+<reg Type="EFlags">0</reg>
+<reg Type="Eip">268592797</reg>
+<reg Type="Esi">0</reg>
+<reg Type="Esp">1233076</reg>
+<reg Type="SegCs">0</reg>
+<reg Type="SegSs">0</reg>
+</Register>
+<CallStack>
+<Stack>[10000000, 1002669D] GdiDetector --&gt; (function-name not available)
+</Stack>
+<Stack>[10000000, 1001AFC1] GdiDetector --&gt; (function-name not available)
+</Stack>
+<Stack>[74680000, 746BB4E2] MSCTF --&gt; TF_GetLangIcon
+</Stack>
+<Stack>[74680000, 746BB876] MSCTF --&gt; TF_MlngInfoCount
+</Stack>
+<Stack>[74680000, 746B1271] MSCTF --&gt; TF_RunInputCPL
+</Stack>
+<Stack>[74680000, 746B167C] MSCTF --&gt; TF_RunInputCPL
+</Stack>
+<Stack>[74680000, 7469CD2B] MSCTF --&gt; TF_CreateCicLoadMutex
+</Stack>
+<Stack>[74680000, 7469D60E] MSCTF --&gt; TF_CreateCicLoadMutex
+</Stack>
+<Stack>[74680000, 74688B2E] MSCTF --&gt; TF_CreateLangBarItemMgr
+</Stack>
+<Stack>[74680000, 7469D913] MSCTF --&gt; TF_CreateCicLoadMutex
+</Stack>
+<Stack>[74680000, 7469DD3B] MSCTF --&gt; TF_CreateCicLoadMutex
+</Stack>
+<Stack>[74680000, 746A03DE] MSCTF --&gt; TF_CheckThreadInputIdle
+</Stack>
+<Stack>[77D10000, 77D18724] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D18806] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D1C623] USER32 --&gt; IsWindowUnicode
+</Stack>
+<Stack>[77D10000, 77D1E8E5] USER32 --&gt; CallWindowProcA
+</Stack>
+<Stack>wincore.cpp (439): _AfxActivationWndProc
+</Stack>
+<Stack>[77D10000, 77D18724] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D18806] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D189BD] USER32 --&gt; GetWindowLongW
+</Stack>
+<Stack>[77D10000, 77D196B7] USER32 --&gt; DispatchMessageA
+</Stack>
+<Stack>thrdcore.cpp (853): CWinThread::PumpMessage
+</Stack>
+<Stack>wincore.cpp (3489): CWnd::RunModalLoop
+</Stack>
+<Stack>dlgcore.cpp (539): CDialog::DoModal
+</Stack>
+<Stack>E:\RedirectAPI\MessageBox\MessageBox.cpp (59): CMessageBoxApp::InitInstance
+</Stack>
+<Stack>winmain.cpp (39): AfxWinMain
+</Stack>
+<Stack>appmodul.cpp (30): WinMain
+</Stack>
+<Stack>crtexe.c (330): WinMainCRTStartup
+</Stack>
+<Stack>[7C800000, 7C817027] kernel32 --&gt; RegisterWaitForInputIdle
+</Stack>
+</CallStack>
+<Module>
+<GdiDetector>
+<Address>10000000</Address>
+<FilePath>D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\GdiDetector.dll</FilePath>
+<Size>1687552</Size>
+<Time>1283600128</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</GdiDetector>
+<GdiDetector>
+<Address>10000000</Address>
+<FilePath>D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\GdiDetector.dll</FilePath>
+<Size>1687552</Size>
+<Time>1283600128</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</GdiDetector>
+<MSCTF>
+<Address>74680000</Address>
+<FilePath>C:\WINDOWS\system32\MSCTF.dll</FilePath>
+<Size>311296</Size>
+<Time>1204026541</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MSCTF>
+<MSCTF>
+<Address>74680000</Address>
+<FilePath>C:\WINDOWS\system32\MSCTF.dll</FilePath>
+<Size>311296</Size>
+<Time>1204026541</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MSCTF>
+<MSCTF>
+<Address>74680000</Address>
+<FilePath>C:\WINDOWS\system32\MSCTF.dll</FilePath>
+<Size>311296</Size>
+<Time>1204026541</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MSCTF>
+<MSCTF>
+<Address>74680000</Address>
+<FilePath>C:\WINDOWS\system32\MSCTF.dll</FilePath>
+<Size>311296</Size>
+<Time>1204026541</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MSCTF>
+<MSCTF>
+<Address>74680000</Address>
+<FilePath>C:\WINDOWS\system32\MSCTF.dll</FilePath>
+<Size>311296</Size>
+<Time>1204026541</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MSCTF>
+<MSCTF>
+<Address>74680000</Address>
+<FilePath>C:\WINDOWS\system32\MSCTF.dll</FilePath>
+<Size>311296</Size>
+<Time>1204026541</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MSCTF>
+<MSCTF>
+<Address>74680000</Address>
+<FilePath>C:\WINDOWS\system32\MSCTF.dll</FilePath>
+<Size>311296</Size>
+<Time>1204026541</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MSCTF>
+<MSCTF>
+<Address>74680000</Address>
+<FilePath>C:\WINDOWS\system32\MSCTF.dll</FilePath>
+<Size>311296</Size>
+<Time>1204026541</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MSCTF>
+<MSCTF>
+<Address>74680000</Address>
+<FilePath>C:\WINDOWS\system32\MSCTF.dll</FilePath>
+<Size>311296</Size>
+<Time>1204026541</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MSCTF>
+<MSCTF>
+<Address>74680000</Address>
+<FilePath>C:\WINDOWS\system32\MSCTF.dll</FilePath>
+<Size>311296</Size>
+<Time>1204026541</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MSCTF>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MessageBox>
+<Address>400000</Address>
+<FilePath>C:\Documents and Settings\acer\桌面\TEST1\MessageBox.exe</FilePath>
+<Size>114688</Size>
+<Time>1283590176</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MessageBox>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MessageBox>
+<Address>400000</Address>
+<FilePath>C:\Documents and Settings\acer\桌面\TEST1\MessageBox.exe</FilePath>
+<Size>114688</Size>
+<Time>1283590176</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MessageBox>
+<MessageBox>
+<Address>400000</Address>
+<FilePath>C:\Documents and Settings\acer\桌面\TEST1\MessageBox.exe</FilePath>
+<Size>114688</Size>
+<Time>1283590176</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MessageBox>
+<kernel32>
+<Address>7c800000</Address>
+<FilePath>C:\WINDOWS\system32\kernel32.dll</FilePath>
+<Size>1167360</Size>
+<Time>1237643647</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</kernel32>
+</Module>
+<End/>
+</Handle>
+<Handle Value="ff01243b">
+<Handle>ff01243b</Handle>
+<Type>4</Type>
+<Parameterinfo>
+<Para Type="RTN_HDC">-16702405 </Para>
+<Para Type=" HWND">0</Para>
+</Parameterinfo>
+<Register>
+<reg Type="Eax">0</reg>
+<reg Type="Ebp">1241288</reg>
+<reg Type="Ebx">0</reg>
+<reg Type="Ecx">0</reg>
+<reg Type="Edi">0</reg>
+<reg Type="Edx">0</reg>
+<reg Type="EFlags">0</reg>
+<reg Type="Eip">268592797</reg>
+<reg Type="Esi">0</reg>
+<reg Type="Esp">1232592</reg>
+<reg Type="SegCs">0</reg>
+<reg Type="SegSs">0</reg>
+</Register>
+<CallStack>
+<Stack>[10000000, 1002669D] GdiDetector --&gt; (function-name not available)
+</Stack>
+<Stack>[10000000, 1001DD61] GdiDetector --&gt; (function-name not available)
+</Stack>
+<Stack>E:\RedirectAPI\MessageBox\MessageBoxDlg.cpp (236): CMessageBoxDlg::OnButton6
+</Stack>
+<Stack>cmdtarg.cpp (88): _AfxDispatchCmdMsg
+</Stack>
+<Stack>cmdtarg.cpp (302): CCmdTarget::OnCmdMsg
+</Stack>
+<Stack>dlgcore.cpp (97): CDialog::OnCmdMsg
+</Stack>
+<Stack>wincore.cpp (2099): CWnd::OnCommand
+</Stack>
+<Stack>wincore.cpp (1608): CWnd::OnWndMsg
+</Stack>
+<Stack>wincore.cpp (1596): CWnd::WindowProc
+</Stack>
+<Stack>wincore.cpp (215): AfxCallWndProc
+</Stack>
+<Stack>wincore.cpp (379): AfxWndProc
+</Stack>
+<Stack>afxstate.cpp (220): AfxWndProcBase
+</Stack>
+<Stack>[77D10000, 77D18724] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D18806] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D1B88B] USER32 --&gt; GetParent
+</Stack>
+<Stack>[77D10000, 77D1B8F3] USER32 --&gt; SendMessageW
+</Stack>
+<Stack>[77D10000, 77D4FE95] USER32 --&gt; CreateMDIWindowA
+</Stack>
+<Stack>[77D10000, 77D4658D] USER32 --&gt; DeregisterShellHookWindow
+</Stack>
+<Stack>[77D10000, 77D2783F] USER32 --&gt; IsDlgButtonChecked
+</Stack>
+<Stack>[77D10000, 77D3B06A] USER32 --&gt; SoftModalMessageBox
+</Stack>
+<Stack>[77D10000, 77D18724] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D18806] USER32 --&gt; (function-name not available)
+</Stack>
+<Stack>[77D10000, 77D189BD] USER32 --&gt; GetWindowLongW
+</Stack>
+<Stack>[77D10000, 77D18A00] USER32 --&gt; DispatchMessageW
+</Stack>
+<Stack>[77D10000, 77D2E0A7] USER32 --&gt; IsDialogMessageW
+</Stack>
+<Stack>[77D10000, 77D3C6BB] USER32 --&gt; IsDialogMessageA
+</Stack>
+<Stack>winocc.cpp (182): CWnd::IsDialogMessageA
+</Stack>
+<Stack>wincore.cpp (3435): CWnd::PreTranslateInput
+</Stack>
+<Stack>dlgcore.cpp (92): CDialog::PreTranslateMessage
+</Stack>
+<Stack>wincore.cpp (2678): CWnd::WalkPreTranslateTree
+</Stack>
+<Stack>thrdcore.cpp (672): CWinThread::PreTranslateMessage
+</Stack>
+<Stack>thrdcore.cpp (848): CWinThread::PumpMessage
+</Stack>
+<Stack>wincore.cpp (3489): CWnd::RunModalLoop
+</Stack>
+<Stack>dlgcore.cpp (539): CDialog::DoModal
+</Stack>
+<Stack>E:\RedirectAPI\MessageBox\MessageBox.cpp (59): CMessageBoxApp::InitInstance
+</Stack>
+<Stack>winmain.cpp (39): AfxWinMain
+</Stack>
+<Stack>appmodul.cpp (30): WinMain
+</Stack>
+<Stack>crtexe.c (330): WinMainCRTStartup
+</Stack>
+<Stack>[7C800000, 7C817027] kernel32 --&gt; RegisterWaitForInputIdle
+</Stack>
+</CallStack>
+<Module>
+<GdiDetector>
+<Address>10000000</Address>
+<FilePath>D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\GdiDetector.dll</FilePath>
+<Size>1687552</Size>
+<Time>1283600128</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</GdiDetector>
+<GdiDetector>
+<Address>10000000</Address>
+<FilePath>D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\GdiDetector.dll</FilePath>
+<Size>1687552</Size>
+<Time>1283600128</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</GdiDetector>
+<MessageBox>
+<Address>400000</Address>
+<FilePath>C:\Documents and Settings\acer\桌面\TEST1\MessageBox.exe</FilePath>
+<Size>114688</Size>
+<Time>1283590176</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MessageBox>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<USER32>
+<Address>77d10000</Address>
+<FilePath>C:\WINDOWS\system32\USER32.dll</FilePath>
+<Size>589824</Size>
+<Time>1173368916</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</USER32>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MessageBox>
+<Address>400000</Address>
+<FilePath>C:\Documents and Settings\acer\桌面\TEST1\MessageBox.exe</FilePath>
+<Size>114688</Size>
+<Time>1283590176</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MessageBox>
+<MFC42D>
+<Address>5f400000</Address>
+<FilePath>C:\WINDOWS\system32\MFC42D.DLL</FilePath>
+<Size>970752</Size>
+<Time>1077927415</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MFC42D>
+<MessageBox>
+<Address>400000</Address>
+<FilePath>C:\Documents and Settings\acer\桌面\TEST1\MessageBox.exe</FilePath>
+<Size>114688</Size>
+<Time>1283590176</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MessageBox>
+<MessageBox>
+<Address>400000</Address>
+<FilePath>C:\Documents and Settings\acer\桌面\TEST1\MessageBox.exe</FilePath>
+<Size>114688</Size>
+<Time>1283590176</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</MessageBox>
+<kernel32>
+<Address>7c800000</Address>
+<FilePath>C:\WINDOWS\system32\kernel32.dll</FilePath>
+<Size>1167360</Size>
+<Time>1237643647</Time>
+<FileVersion>[FileVersion:5.1.2600.2180]</FileVersion>
+</kernel32>
+</Module>
+<End/>
+</Handle>
+</Objecthandle>

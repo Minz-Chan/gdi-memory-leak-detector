@@ -1,0 +1,119 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GdiLeakDetector - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/GdiLeakDetector.res" /d "NDEBUG" /d "_AFXDLL" "D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\GdiLeakDetector.rc"" 
+Creating temporary file "C:\DOCUME~1\acer\LOCALS~1\Temp\RSP1CD.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/GdiLeakDetector.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\BitmapTabCtrl.cpp"
+"D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\CategoryStatisticsPage.cpp"
+"D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\CodeShow.cpp"
+"D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\CpuPage.cpp"
+"D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\CurveSheet.cpp"
+"D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\CurveView.cpp"
+"D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\Gdi.cpp"
+"D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\GdiLeakDetector.cpp"
+"D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\GdiLeakDetectorDoc.cpp"
+"D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\GdiLeakDetectorView.cpp"
+"D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\GdiNumberPage.cpp"
+"D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\GdiObjWatchPage.cpp"
+"D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\InfoView.cpp"
+"D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\Inject.cpp"
+"D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\LeftView.cpp"
+"D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\MainFrm.cpp"
+"D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\Markup.cpp"
+"D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\MemoryPage.cpp"
+"D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\OutputPage.cpp"
+"D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\RightView2.cpp"
+"D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\SplitterWndEx.cpp"
+"D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\ThreadPage.cpp"
+"D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\XMLOperator.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\acer\LOCALS~1\Temp\RSP1CD.tmp" 
+Creating temporary file "C:\DOCUME~1\acer\LOCALS~1\Temp\RSP1CE.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/GdiLeakDetector.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\acer\LOCALS~1\Temp\RSP1CE.tmp" 
+Creating temporary file "C:\DOCUME~1\acer\LOCALS~1\Temp\RSP1CF.tmp" with contents
+[
+psapi.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/GdiLeakDetector.pdb" /machine:I386 /out:"Release/GdiLeakDetector.exe" 
+".\Release\BitmapTabCtrl.obj"
+".\Release\CategoryStatisticsPage.obj"
+".\Release\CodeShow.obj"
+".\Release\CpuPage.obj"
+".\Release\CurveSheet.obj"
+".\Release\CurveView.obj"
+".\Release\Gdi.obj"
+".\Release\GdiLeakDetector.obj"
+".\Release\GdiLeakDetectorDoc.obj"
+".\Release\GdiLeakDetectorView.obj"
+".\Release\GdiNumberPage.obj"
+".\Release\GdiObjWatchPage.obj"
+".\Release\InfoView.obj"
+".\Release\Inject.obj"
+".\Release\LeftView.obj"
+".\Release\MainFrm.obj"
+".\Release\Markup.obj"
+".\Release\MemoryPage.obj"
+".\Release\OutputPage.obj"
+".\Release\RightView2.obj"
+".\Release\SplitterWndEx.obj"
+".\Release\StdAfx.obj"
+".\Release\ThreadPage.obj"
+".\Release\XMLOperator.obj"
+".\Release\GdiLeakDetector.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\acer\LOCALS~1\Temp\RSP1CF.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BitmapTabCtrl.cpp
+CategoryStatisticsPage.cpp
+CodeShow.cpp
+CpuPage.cpp
+CurveSheet.cpp
+CurveView.cpp
+Gdi.cpp
+GdiLeakDetector.cpp
+GdiLeakDetectorDoc.cpp
+GdiLeakDetectorView.cpp
+GdiNumberPage.cpp
+GdiObjWatchPage.cpp
+InfoView.cpp
+Inject.cpp
+LeftView.cpp
+MainFrm.cpp
+D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\MainFrm.cpp(343) : warning C4101: 'pi' : unreferenced local variable
+Markup.cpp
+MemoryPage.cpp
+Note: MBCS build (not UTF-8)
+OutputPage.cpp
+RightView2.cpp
+Generating Code...
+D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\Gdi.cpp(597) : warning C4700: local variable 'oldpoint' used without having been initialized
+D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\Gdi.cpp(869) : warning C4700: local variable 'oldpoint' used without having been initialized
+D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\Gdi.cpp(969) : warning C4700: local variable 'oldpoint' used without having been initialized
+D:\Resources\My Project\VC\GDI Memory Leak Detection\Project\0904\Gdi Memory Leak Detect 2010-09-04 19.23\Gdi Memory Leak Detect 2010-09-04 19.23\GdiLeakDetector\Gdi.cpp(1065) : warning C4700: local variable 'oldpoint' used without having been initialized
+Compiling...
+SplitterWndEx.cpp
+ThreadPage.cpp
+XMLOperator.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+GdiLeakDetector.exe - 0 error(s), 5 warning(s)
+</pre>
+</body>
+</html>
